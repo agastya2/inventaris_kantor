@@ -1,0 +1,48 @@
+#--------------------------------------------------------------------
+# Example Environment Configuration file
+#
+# This file can be used as a starting point for your own
+# custom .env files, and contains most of the possible settings
+# available in a default install.
+#
+# By default, all of the settings are commented out. If you want
+# to override the setting, you must un-comment it by removing the '#'
+# at the beginning of the line.
+#--------------------------------------------------------------------
+
+#--------------------------------------------------------------------
+# ENVIRONMENT
+#--------------------------------------------------------------------
+
+CI_ENVIRONMENT = develoment
+
+#--------------------------------------------------------------------
+# APP
+#--------------------------------------------------------------------
+
+# app.baseURL = ''
+# If you have trouble with `.`, you could also use `_`.
+# app_baseURL = ''
+# app.forceGlobalSecureRequests = false
+# app.CSPEnabled = false
+
+#--------------------------------------------------------------------
+# DATABASE
+#--------------------------------------------------------------------
+database.default.hostname = localhost
+database.default.port = 5432
+database.default.database = postgres
+database.default.username = postgres
+database.default.password = passwordku
+database.default.DBDriver = PostgreSQL
+database.default.DBPrefix =
+database.default.schema = public
+database.default.charset = utf8
+database.default.DBCollat = utf8_general_ci
+database.default.swapPre =
+database.default.encrypt = false
+database.default.compress = false
+database.default.strictOn = false
+database.default.failover =
+database.default.port = 5432
+
