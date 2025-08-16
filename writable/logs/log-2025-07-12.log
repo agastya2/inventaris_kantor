@@ -1,0 +1,264 @@
+ERROR - 2025-07-12 08:14:10 --> Error connecting to the database: Error: Class "SQLite3" not found in /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php:112
+Stack trace:
+#0 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/codeigniter4/framework/system/Database/BaseConnection.php(421): CodeIgniter\Database\SQLite3\Connection->connect()
+#1 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php(74): CodeIgniter\Database\BaseConnection->initialize()
+#2 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/codeigniter4/framework/system/Test/DatabaseTestTrait.php(83): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/codeigniter4/framework/system/Test/DatabaseTestTrait.php(59): ExampleDatabaseTest->loadDependencies()
+#4 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/codeigniter4/framework/system/Test/CIUnitTestCase.php(251): ExampleDatabaseTest->setUpDatabase()
+#5 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/src/Framework/TestCase.php(2179): CodeIgniter\Test\CIUnitTestCase->setUp()
+#6 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/src/Framework/TestCase.php(2089): PHPUnit\Framework\TestCase->invokeHookMethods()
+#7 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/src/Framework/TestCase.php(678): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods()
+#8 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/src/Framework/TestRunner.php(106): PHPUnit\Framework\TestCase->runBare()
+#9 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/src/Framework/TestCase.php(516): PHPUnit\Framework\TestRunner->run()
+#10 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/src/Framework/TestSuite.php(374): PHPUnit\Framework\TestCase->run()
+#11 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/src/Framework/TestSuite.php(374): PHPUnit\Framework\TestSuite->run()
+#12 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/src/Framework/TestSuite.php(374): PHPUnit\Framework\TestSuite->run()
+#13 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#14 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/src/TextUI/Application.php(203): PHPUnit\TextUI\TestRunner->run()
+#15 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run()
+#16 {main}
+ERROR - 2025-07-12 08:14:10 --> Error connecting to the database: Error: Class "SQLite3" not found in /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php:112
+Stack trace:
+#0 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/codeigniter4/framework/system/Database/BaseConnection.php(421): CodeIgniter\Database\SQLite3\Connection->connect()
+#1 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php(74): CodeIgniter\Database\BaseConnection->initialize()
+#2 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/codeigniter4/framework/system/Test/DatabaseTestTrait.php(83): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/codeigniter4/framework/system/Test/DatabaseTestTrait.php(59): ExampleDatabaseTest->loadDependencies()
+#4 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/codeigniter4/framework/system/Test/CIUnitTestCase.php(251): ExampleDatabaseTest->setUpDatabase()
+#5 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/src/Framework/TestCase.php(2179): CodeIgniter\Test\CIUnitTestCase->setUp()
+#6 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/src/Framework/TestCase.php(2089): PHPUnit\Framework\TestCase->invokeHookMethods()
+#7 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/src/Framework/TestCase.php(678): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods()
+#8 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/src/Framework/TestRunner.php(106): PHPUnit\Framework\TestCase->runBare()
+#9 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/src/Framework/TestCase.php(516): PHPUnit\Framework\TestRunner->run()
+#10 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/src/Framework/TestSuite.php(374): PHPUnit\Framework\TestCase->run()
+#11 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/src/Framework/TestSuite.php(374): PHPUnit\Framework\TestSuite->run()
+#12 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/src/Framework/TestSuite.php(374): PHPUnit\Framework\TestSuite->run()
+#13 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#14 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/src/TextUI/Application.php(203): PHPUnit\TextUI\TestRunner->run()
+#15 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run()
+#16 {main}
+ERROR - 2025-07-12 08:20:01 --> Error connecting to the database: Error: Class "SQLite3" not found in /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php:112
+Stack trace:
+#0 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/codeigniter4/framework/system/Database/BaseConnection.php(421): CodeIgniter\Database\SQLite3\Connection->connect()
+#1 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php(74): CodeIgniter\Database\BaseConnection->initialize()
+#2 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/codeigniter4/framework/system/Test/DatabaseTestTrait.php(83): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/codeigniter4/framework/system/Test/DatabaseTestTrait.php(59): ExampleDatabaseTest->loadDependencies()
+#4 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/codeigniter4/framework/system/Test/CIUnitTestCase.php(251): ExampleDatabaseTest->setUpDatabase()
+#5 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/src/Framework/TestCase.php(2179): CodeIgniter\Test\CIUnitTestCase->setUp()
+#6 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/src/Framework/TestCase.php(2089): PHPUnit\Framework\TestCase->invokeHookMethods()
+#7 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/src/Framework/TestCase.php(678): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods()
+#8 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/src/Framework/TestRunner.php(106): PHPUnit\Framework\TestCase->runBare()
+#9 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/src/Framework/TestCase.php(516): PHPUnit\Framework\TestRunner->run()
+#10 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/src/Framework/TestSuite.php(374): PHPUnit\Framework\TestCase->run()
+#11 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/src/Framework/TestSuite.php(374): PHPUnit\Framework\TestSuite->run()
+#12 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/src/Framework/TestSuite.php(374): PHPUnit\Framework\TestSuite->run()
+#13 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#14 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/src/TextUI/Application.php(203): PHPUnit\TextUI\TestRunner->run()
+#15 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run()
+#16 {main}
+ERROR - 2025-07-12 08:20:01 --> Error connecting to the database: Error: Class "SQLite3" not found in /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php:112
+Stack trace:
+#0 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/codeigniter4/framework/system/Database/BaseConnection.php(421): CodeIgniter\Database\SQLite3\Connection->connect()
+#1 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php(74): CodeIgniter\Database\BaseConnection->initialize()
+#2 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/codeigniter4/framework/system/Test/DatabaseTestTrait.php(83): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/codeigniter4/framework/system/Test/DatabaseTestTrait.php(59): ExampleDatabaseTest->loadDependencies()
+#4 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/codeigniter4/framework/system/Test/CIUnitTestCase.php(251): ExampleDatabaseTest->setUpDatabase()
+#5 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/src/Framework/TestCase.php(2179): CodeIgniter\Test\CIUnitTestCase->setUp()
+#6 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/src/Framework/TestCase.php(2089): PHPUnit\Framework\TestCase->invokeHookMethods()
+#7 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/src/Framework/TestCase.php(678): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods()
+#8 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/src/Framework/TestRunner.php(106): PHPUnit\Framework\TestCase->runBare()
+#9 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/src/Framework/TestCase.php(516): PHPUnit\Framework\TestRunner->run()
+#10 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/src/Framework/TestSuite.php(374): PHPUnit\Framework\TestCase->run()
+#11 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/src/Framework/TestSuite.php(374): PHPUnit\Framework\TestSuite->run()
+#12 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/src/Framework/TestSuite.php(374): PHPUnit\Framework\TestSuite->run()
+#13 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+#14 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/src/TextUI/Application.php(203): PHPUnit\TextUI\TestRunner->run()
+#15 /media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run()
+#16 {main}
+DEBUG - 2025-07-12 09:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 09:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 09:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 09:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-12 09:08:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "login.php"
+[Method: GET, Route: login]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Auth.php(9): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Auth->index()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-07-12 09:08:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "login.php"
+[Method: GET, Route: login]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Auth.php(9): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Auth->index()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+DEBUG - 2025-07-12 09:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 09:14:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 09:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 09:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 09:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 09:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 09:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-12 09:16:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dashboard.php"
+[Method: GET, Route: dashboard]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Dashboard.php(9): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+DEBUG - 2025-07-12 09:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 09:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-12 09:19:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dashboard.php"
+[Method: GET, Route: dashboard]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Dashboard.php(9): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+DEBUG - 2025-07-12 09:19:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 09:19:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 09:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 09:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-12 09:21:31 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dashboard.php"
+[Method: GET, Route: dashboard]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Dashboard.php(9): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+DEBUG - 2025-07-12 09:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 09:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 09:26:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-12 09:26:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/header.php"
+[Method: GET, Route: dashboard]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(475): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/dashboard/dashboard.php(1): CodeIgniter\View\View->include()
+ 4 SYSTEMPATH/View/View.php(224): include('/media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/app/Views/dashboard/dashboard.php')
+ 5 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Dashboard.php(9): view()
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 9 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-07-12 09:27:23 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/footer.php"
+[Method: GET, Route: dashboard]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(475): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/dashboard/dashboard.php(41): CodeIgniter\View\View->include()
+ 4 SYSTEMPATH/View/View.php(224): include('/media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/app/Views/dashboard/dashboard.php')
+ 5 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Dashboard.php(9): view()
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 9 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+DEBUG - 2025-07-12 09:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 09:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 09:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 09:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 09:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 09:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 09:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 09:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 09:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 09:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 09:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 09:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 09:53:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-12 10:21:14 --> Error: Class "App\Controllers\DummyData" not found
+[Method: GET, Route: barang]
+in APPPATH/Controllers/Pages.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pages->barang()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+DEBUG - 2025-07-12 10:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 10:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 10:24:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 10:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 10:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 10:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 10:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 10:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 10:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 10:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 10:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 10:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 10:33:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 10:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 10:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 10:35:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 10:38:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 10:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 10:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 10:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-12 10:45:35 --> ErrorException: Undefined array key "nama_peminjam"
+[Method: GET, Route: peminjaman]
+in APPPATH/Views/pages/peminjaman.php on line 36.
+ 1 APPPATH/Views/pages/peminjaman.php(36): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/app/Views/pages/peminjaman.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pages.php(33): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pages->peminjaman()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-07-12 10:46:04 --> ErrorException: Undefined array key "nama_barang"
+[Method: GET, Route: peminjaman]
+in APPPATH/Views/pages/peminjaman.php on line 37.
+ 1 APPPATH/Views/pages/peminjaman.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/media/agas/data/OUT_PROJECT/UAS_KULIAH/tugas_uas/app/Views/pages/peminjaman.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pages.php(33): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Pages->peminjaman()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+DEBUG - 2025-07-12 10:49:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 10:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 11:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 11:11:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 11:58:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 11:59:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
